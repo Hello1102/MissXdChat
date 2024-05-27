@@ -295,9 +295,3 @@ async def chatbot_sticker_pvt(client: Client, message: Message):
                 await message.reply_text(f"{hey}")
             if not Yo == "text":
                 await message.reply_sticker(f"{hey}")
-                def chat_bot(message):
-    if re.search(r'\bOwner\b', message):
-        owner_id = "YOUR_OWNER_ID"  # Replace with the actual owner ID
-        return f"The owner ID is: {@Mr_nobi_1}"
-    else:
-        return "Sorry, I don't understand. Could you please rephrase?"
