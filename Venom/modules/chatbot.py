@@ -295,12 +295,7 @@ async def chatbot_sticker_pvt(client: Client, message: Message):
                 await message.reply_text(f"{hey}")
             if not Yo == "text":
                 await message.reply_sticker(f"{hey}")
-Certainly! Here's an example of Python code for a chatbot that responds with the owner's ID when someone texts "Owner":
-
-# Importing the necessary libraries
-import re
-
-def chat_bot(message):
+                def chat_bot(message):
     if re.search(r'\bOwner\b', message):
         owner_id = "YOUR_OWNER_ID"  # Replace with the actual owner ID
         return f"The owner ID is: {@Mr_nobi_1}"
